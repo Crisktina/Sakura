@@ -1,12 +1,12 @@
-import "./styles/App.css"
+import Header from './components/Header';
+import Main from './components/Main';
 
 function App() {
-  return  (
-  <>
-  <h1>Sakura</h1>
-  <p>Selecciona 3 cartas</p>
-  <p>Pasado - Presente - Futuro</p>
-  </>
+  return (
+    <div className="App">
+     <Header/> 
+     <Main/>
+    </div>
   );
 }
 
