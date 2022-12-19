@@ -1,14 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Main from "../components/Main";
 import Header from "../components/Header";
-import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <>
       <Header />
-      <Link to="/lectura">Descubrir cartas</Link>
       <Main />
+      <Link to="/lectura">Descubrir cartas</Link>
     </>
   );
 }
