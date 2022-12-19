@@ -13,10 +13,10 @@ function Main() {
     <>
   <div className="container">
         {cards !== []
-          ? cards.map(card => {
+          ? cards.map((card, id) => {
               if (card.cardsReverse.clowReverse) {
                 return (
-                  <div key={card.id}>
+                  <div key={id}>
                     <img
                       src={card.cardsReverse.clowReverse}
                       alt={card.spanishName}
