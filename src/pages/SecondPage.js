@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 function SecondPage() {
   return (
-    <div>SecondPage</div>
-  )
+    <>
+      <Link to="/">Nueva tirada</Link>
+    </>
+  );
 }
 
-export default SecondPage
+export default SecondPage;
