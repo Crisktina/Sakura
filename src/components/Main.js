@@ -3,7 +3,7 @@ import GetCards  from '../services/functions'
 import '../styles/Main.css'
 
 function Main() {
-  const [cards, setCards] = useState(null)
+  const [cards, setCards] = useState([])
 
   useEffect(()=>{
     GetCards(setCards);
