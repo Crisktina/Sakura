@@ -3,19 +3,14 @@ import { Link } from "react-router-dom";
 import MainSecondPage from "../components/MainSecondPage";
 import { useLocation } from "react-router-dom";
 
-function SecondPage({ selectedCards }) {
-  console.log(selectedCards);
+function SecondPage() {
   const location = useLocation();
-  console.log(location);
-  const infoLocation = location.state;
-  console.log(infoLocation);
+  const selectedCards = location.state.from.selectedCards;
+
   return (
     <>
       {<Link to="/">Nueva tirada</Link>}
-      <MainSecondPage
-        selectedCards={selectedCards}
-        infoLocation={infoLocation}
-      />
+      <MainSecondPage selectedCards={selectedCards} />
     </>
   );
 }
