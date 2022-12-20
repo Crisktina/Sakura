@@ -7,10 +7,16 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color-purple: #A56A86;  
+  --color-yellow: #EDC230;
+  --color-orange: #FDA34B;    
+}
 
 body {
   max-width: 100%;
   height: 100vh;
+  background-color: var(--color-purple);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
