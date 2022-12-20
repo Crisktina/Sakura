@@ -23,7 +23,7 @@
 <img src= "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt = "css"></img>
 <img src= "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt= "javascript"></img>
 <img src="https://img.shields.io/badge/sweetalert2-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"></img>
-<img src= "https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=flat-square" alt= "react"></img>
+<img width="97" alt="reactjs" src="https://user-images.githubusercontent.com/116796010/208762698-0a45035e-9e2e-46fa-8114-6ba7e9916daf.png">
 
 
 
