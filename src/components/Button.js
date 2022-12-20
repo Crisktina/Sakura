@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Button() {
+function Button({ selectedCards }) {
   return (
     <>
-      <Link to="/lectura">Descubrir Cartas</Link>
+      <Link to="/lectura" state={{ from: "/" }}>
+        Descubrir Cartas
+      </Link>
     </>
   );
 }

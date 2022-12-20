@@ -1,7 +1,6 @@
 import React from "react";
 
 function MainSecondPage({ selectedCards }) {
-  console.log(selectedCards);
   return (
     <div>
       {/* {selectedCards.map((card, index) => (
