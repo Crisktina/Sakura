@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import ReactCardFlip from "react-card-flip";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
 
 const Cards = ({
   id,
@@ -12,13 +14,17 @@ const Cards = ({
   card,
 }) => {
   const [isFlipped, setIsFlipped] = useState(false);
+  const MySwal = withReactContent(Swal);
 
   const newSelectCards = () => {
     if (selectedCards.length < 3) {
       setSelectedCards([...selectedCards, card]);
       setIsFlipped(!isFlipped);
     } else {
-      console.warn("¡Ya tienes 3 cartas seleccionadas!"); //CAMBIAR POR SWEETALERT
+      console.warn("¡Ya tienes 3 cartas seleccionadas!");
+      MySwal.fire({
+        title: <p>¡Ya tienes 3 cartas seleccionadas!</p>,
+      });
     }
   };
 
