@@ -4,7 +4,6 @@ import Header from "../components/Header";
 
 function Home() {
   const [selectedCards, setSelectedCards] = useState([]);
-  console.log(selectedCards);
   return (
     <>
       <Header selectedCards={selectedCards} />
