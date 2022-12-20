@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import GetCards from "../services/functions";
 import "../styles/Main.css";
 import Cards from "./Cards";
