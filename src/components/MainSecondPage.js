@@ -9,6 +9,7 @@ function MainSecondPage({ selectedCards }) {
           {index === 1 && <h2>Presente</h2>}
           {index === 2 && <h2>Futuro</h2>}
           <img key={index} src={card.clowCard} alt={card.spanishName} />
+          <h3>{card.spanishName}</h3>
           <p>{card.meaning}</p>
         </div>
       ))}
