@@ -12,7 +12,7 @@ function Main({ selectedCards, setSelectedCards }) {
 
   return (
     <>
-      <div className="container">
+      <main className="containerCards">
         {cards !== []
           ? cards.map((card, index) =>
               card.cardsReverse.clowReverse ? (
@@ -32,7 +32,7 @@ function Main({ selectedCards, setSelectedCards }) {
               )
             )
           : "No hay cards"}
-      </div>
+      </main>
     </>
   );
 }

@@ -25,13 +25,20 @@ const Cards = ({
   return (
     <ReactCardFlip isFlipped={isFlipped}>
       <img
+        className="card"
         id={id}
         src={backImage}
         alt={spanishName}
         meaning={meaning}
         onClick={newSelectCards}
       />
-      <img id={id} src={frontImage} alt={spanishName} meaning={meaning} />
+      <img
+        className="card"
+        id={id}
+        src={frontImage}
+        alt={spanishName}
+        meaning={meaning}
+      />
     </ReactCardFlip>
   );
 };

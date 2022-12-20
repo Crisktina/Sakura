@@ -1,6 +1,27 @@
 .header {
-    text-align: center;
-    padding: 2rem;
-    margin-bottom: 1rem;
-    width: 100%;
-  }
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 8% 0;
+}
+.buttonLink {
+  background-color: var(--color-yellow);
+  color: var(--color-purple);
+  font-weight: 700;
+  font-size: 2.5rem;
+  padding: 0.3em 0.8em;
+  border-radius: 9px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 5%;
+}
+
+.textMain {
+  color: var(--color-yellow);
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+  margin-bottom: 0.5%;
+}

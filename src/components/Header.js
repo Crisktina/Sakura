@@ -4,9 +4,11 @@ import Button from "./Button";
 
 function Header({ selectedCards }) {
   return (
-    <div className="header">
+    <header className="header">
       <Button selectedCards={selectedCards} />
-    </div>
+      <h2 className="textMain">Selecciona 3 cartas.</h2>
+      <h2 className="textMain">Pasado - Presente - Futuro</h2>
+    </header>
   );
 }
 
