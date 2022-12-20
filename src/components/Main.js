@@ -1,24 +1,14 @@
 import React, { useEffect, useState } from "react";
 import GetCards from "../services/functions";
 import "../styles/Main.css";
+import Cards from "./Cards";
 
-function Main(props) {
+function Main({ selectedCards, setSelectedCards }) {
   const [cards, setCards] = useState([]);
-  const [selectedCards, setSelectedCards] = useState([]);
 
   useEffect(() => {
     GetCards(setCards);
   }, []);
-
-  const handleSend = (event) => {
-    const target = event.target;
-    // event.preventDefault();
-    console.log(target);
-    const newArray = {
-      // [...selectedCards, ]
-    };
-    // props.onClick(newTask);
-  };
 
   return (
     <>
@@ -26,14 +16,17 @@ function Main(props) {
         {cards !== []
           ? cards.map((card, index) =>
               card.cardsReverse.clowReverse ? (
-                <div key={index} onClick={(event) => handleSend(event)}>
-                  <img
-                    src={card.cardsReverse.clowReverse}
-                    alt={card.spanishName}
-                    id={card.id}
-                    meaning={card.meaning}
-                  />
-                </div>
+                <Cards
+                  key={index}
+                  id={card.id}
+                  meaning={card.meaning}
+                  backImage={card.cardsReverse.clowReverse}
+                  frontImage={card.clowCard}
+                  spanishName={card.spanishName}
+                  card={card}
+                  selectedCards={selectedCards}
+                  setSelectedCards={setSelectedCards}
+                />
               ) : (
                 <div key={index} style={{ display: "none" }}></div>
               )

@@ -2,10 +2,10 @@ import React from "react";
 import "../styles/Header.css";
 import Button from "./Button";
 
-function Header() {
+function Header({ selectedCards }) {
   return (
     <div className="header">
-      <Button />
+      <Button selectedCards={selectedCards} />
     </div>
   );
 }
