@@ -25,3 +25,17 @@
   line-height: 1.8rem;
   margin-bottom: 0.5%;
 }
+
+@media (min-width: 992px) {
+  .header {
+    padding: 4% 0 2.5%;
+  }
+  .buttonLink {
+    margin-bottom: 2%;
+    font-size: 2rem;
+  }
+  .textMain {
+    font-size: 1.5rem;
+    margin-bottom: 0.2%;
+  }
+}

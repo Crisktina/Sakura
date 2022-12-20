@@ -8,7 +8,21 @@
 
 .card {
   width: 9.2rem;
-  height: 100%;
+  height: auto;
   border-radius: 8px;
   filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media (min-width: 992px) {
+  .containerCards {
+    padding: 0 2%;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-gap: 2%;
+  }
+  .card {
+    height: auto;
+    width: auto;
+    max-width: 5.9rem;
+  }
 }

@@ -38,3 +38,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@media (min-width: 992px) {
+  body {
+    background-size: 20%;
+    height: 100vh;
+  }
+}

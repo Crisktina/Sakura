@@ -8,7 +8,7 @@ function MainSecondPage({ selectedCards }) {
       {selectedCards.map((card, index) => (
         <div key={index} className="containerCardsSecondBox">
           <img
-            className="card"
+            className="card cardSecond"
             key={index}
             src={card.clowCard}
             alt={card.spanishName}

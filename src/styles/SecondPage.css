@@ -12,7 +12,6 @@
 }
 
 .cointainerInfo {
-  width: 70%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -22,7 +21,6 @@
   background-color: var(--color-orange);
   padding: 10%;
   border-radius: 9px;
-  overflow: scroll;
 }
 
 h2 {
@@ -47,4 +45,45 @@ h3 {
 }
 p {
   font-weight: 400;
+}
+
+@media (min-width: 992px) {
+  .containerCardsSecond {
+    padding: 0 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 5% 0%;
+    margin-bottom: 10%;
+  }
+
+  .containerCardsSecondBox {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .cardSecond {
+    margin-bottom: 10%;
+    min-width: 15rem;
+  }
+
+  .cointainerInfo {
+    align-items: center;
+    width: 75%;
+  }
+
+  .cointainerMeaning {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  h2 {
+    margin-bottom: 10%;
+  }
 }
