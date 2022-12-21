@@ -21,9 +21,12 @@ const Cards = ({
       setSelectedCards([...selectedCards, card]);
       setIsFlipped(!isFlipped);
     } else {
-      console.warn("¡Ya tienes 3 cartas seleccionadas!");
+      console.warn("¡Ya has elegido 3 cartas!");
       MySwal.fire({
         title: <p>¡Ya tienes 3 cartas seleccionadas!</p>,
+        background: "var(--color-orange)",
+        confirmButtonColor: "var(--color-purple)",
+        allowOutsideClick: "true",
       });
     }
   };
