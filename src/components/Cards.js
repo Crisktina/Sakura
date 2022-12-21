@@ -31,7 +31,7 @@ const Cards = ({
   return (
     <ReactCardFlip isFlipped={isFlipped}>
       <img
-        className="card"
+        className="card cardFront"
         id={id}
         src={backImage}
         alt={spanishName}
