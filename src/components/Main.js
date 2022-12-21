@@ -5,7 +5,6 @@ import Cards from "./Cards";
 
 function Main({ selectedCards, setSelectedCards }) {
   const [cards, setCards] = useState([]);
-
   useEffect(() => {
     GetCards(setCards);
   }, []);
