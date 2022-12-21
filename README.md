@@ -39,10 +39,10 @@
 
 
 ## Design
+<p align="center"><img width="640" alt="Screenshot 2022-12-21 at 09 53 57" src="https://user-images.githubusercontent.com/116796010/208862417-6396d6bf-ed6a-49f9-bf5b-a6440bae5fb4.png"></p>
 
-<p align="center"><img width="640" alt="Screenshot 2022-12-20 at 21 23 46" src="https://user-images.githubusercontent.com/116796010/208761343-156c9526-f349-4cc5-a76c-5bd1f3ed9c9d.png"></p>
+<p align="center"><img width="240" alt="Screenshot 2022-12-21 at 09 50 46" src="https://user-images.githubusercontent.com/116796010/208862534-6661e8e8-9487-42b7-b0ab-1867dd77c4d4.png"></p>
 
-<p align="center"><img width="240" alt="Screenshot 2022-12-20 at 21 23 06" src="https://user-images.githubusercontent.com/116796010/208761396-1129e283-ef47-4454-879c-9276e9670677.png"></p>
 
 In the project directory, you can run:
 
