@@ -39,7 +39,8 @@
 
 
 ## Design
-<p align="center"><img width="640" alt="Screenshot 2022-12-21 at 09 53 57" src="https://user-images.githubusercontent.com/116796010/208862417-6396d6bf-ed6a-49f9-bf5b-a6440bae5fb4.png"></p>
+
+<p align="center"><img width="640" alt="Screenshot 2022-12-21 at 10 25 31" src="https://user-images.githubusercontent.com/116796010/208870851-315e5b35-69d0-4eaf-93f9-0b0f8578cb58.png"></p>
 
 <p align="center"><img width="240" alt="Screenshot 2022-12-21 at 09 50 46" src="https://user-images.githubusercontent.com/116796010/208862534-6661e8e8-9487-42b7-b0ab-1867dd77c4d4.png"></p>
 
